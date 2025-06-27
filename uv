@@ -1,0 +1,7 @@
+#!/usr/bin/env /Users/alexchisholm/examples-shiny-python-1/.venv/bin/python
+import sys
+import runpy
+
+if __name__ == "__main__":
+    sys.argv[0] = "uv"
+    runpy.run_module("uv", run_name="__main__")
